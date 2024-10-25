@@ -16,21 +16,14 @@ export default function Contact() {
               <Mail className="text-orange-500 mr-4" size={24} />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-gray-600">contact@example.com</p>
-              </div>
-            </div>
-            <div className="flex items-center">
-              <Phone className="text-orange-500 mr-4" size={24} />
-              <div>
-                <h3 className="font-semibold">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">hey@rajaduraiaz.com</p>
               </div>
             </div>
             <div className="flex items-center">
               <MapPin className="text-orange-500 mr-4" size={24} />
               <div>
                 <h3 className="font-semibold">Location</h3>
-                <p className="text-gray-600">San Francisco, CA</p>
+                <p className="text-gray-600">Chennai, Tamil Nadu, India</p>
               </div>
             </div>
           </div>

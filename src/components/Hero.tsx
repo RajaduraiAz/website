@@ -42,7 +42,7 @@ export default function Hero() {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+                  src="/profile.jpg"
                   alt="Rajadurai"
                   className="w-full h-full object-cover"
                 />

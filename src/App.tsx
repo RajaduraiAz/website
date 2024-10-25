@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Projects />
       <Contact />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }

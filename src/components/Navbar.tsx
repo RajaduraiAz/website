@@ -14,7 +14,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="AZ Logo" className="h-12 w-auto" />
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="invisible md:visible md:flex items-center space-x-8">
             <a href="#home" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">Home</a>
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">About</a>
             <a href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">Projects</a>

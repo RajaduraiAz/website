@@ -15,7 +15,7 @@ export default function Navbar() {
           </div>
           
           <div className="flex max-md:hidden items-center space-x-8">
-            <a href="/" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">Home</a>
+            <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">Home</a>
             <a href="https://blog.rajaduraiaz.com/" className="text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition">Blog</a>
             <button
               onClick={toggleTheme}
@@ -44,7 +44,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white dark:bg-gray-900 transition-colors duration-200">
-            <a href="/" className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400">Home</a>
+            <a href="#" className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400">Home</a>
             <a href="https://blog.rajaduraiaz.com" className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400">Blog</a>
           </div>
         </div>

@@ -39,17 +39,6 @@ export default function Contact() {
             <p className="text-orange-500 dark:text-orange-400">
               © {new Date().getFullYear()} Rajadurai. All rights reserved.
             </p>
-            <p className="text-orange-500 dark:text-orange-400 text-sm">
-              This website was completely made with AI tool{' '}
-              <a
-                href="https://bolt.new"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-orange-600 dark:hover:text-orange-300"
-              >
-                bolt.new
-              </a>
-            </p>
           </div>
         </div>
       </div>
